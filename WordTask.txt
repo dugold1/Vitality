@@ -1,0 +1,18 @@
+﻿Trends in Automation Testing
+
+Shift-Left Testing: This trend emphasizes the early involvement of QA and testing activities in the software development lifecycle (SDLC). Test automation is integrated from the early stages of development, such as during requirements gathering, design, and coding. By shifting testing left, defects can be identified and addressed earlier, leading to higher quality software and faster delivery.
+
+Test-Driven Development (TDD): TDD is a development approach where tests are written before the code implementation. This helps ensure that the code meets the desired behavior defined by the tests. Test automation plays a crucial role in TDD by providing immediate feedback on code changes and facilitating continuous testing throughout the development cycle.
+
+Behavior-Driven Development (BDD): BDD is a collaborative approach that focuses on defining software behavior using plain-language specifications. BDD frameworks like Cucumber enable collaboration between business stakeholders, developers, and testers. Test automation helps in automating these behavior-driven scenarios, ensuring alignment between business requirements and software functionality.
+
+Continuous Testing and DevOps: Continuous integration and continuous delivery (CI/CD) practices are becoming more prevalent. Test automation is an integral part of this process, enabling frequent and automated testing of each code change. Automated tests provide fast feedback on the quality of the changes, ensuring that defects are caught early and reducing the risk of regressions.
+
+Test Automation Frameworks and Tools: There is a continuous evolution of test automation frameworks and tools to support the growing needs of the QA industry. Frameworks like Selenium, Cypress, and Appium, along with cloud-based testing services, are gaining popularity due to their scalability, flexibility, and support for multiple platforms and devices.
+
+
+Automation Task Duration: 3 hours
+
+Things I would add to the solution
+
+I will make it more robust with interfaces and as well design it based on the business requirement

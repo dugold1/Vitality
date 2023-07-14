@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
+using System;
 using System.Collections.Generic;
 
 namespace WarcTechnicalTest.Pages
@@ -66,14 +67,25 @@ namespace WarcTechnicalTest.Pages
 
         public void CompareTemp()
         {
-            string highTemperature = HighTemperatureElement().Text;
-            string lowTemperature = LowTemperatureElement().Text;
-           string HightemperatureText = highTemperature.Replace("°", "");
-           string  LowtemperatureText = lowTemperature.Replace("°", "");
-            int highTemp = int.Parse(HightemperatureText);  
-            int lowTemp = int.Parse(LowtemperatureText);    
-            Assert.Greater(highTemp, lowTemp, "Tomorrow's high temperature is greater than tomorrow's low temperature");
-            
+            try
+            {
+                string highTemperature = HighTemperatureElement().Text;
+                string lowTemperature = LowTemperatureElement().Text;
+                string HightemperatureText = highTemperature.Replace("°", "");
+                string LowtemperatureText = lowTemperature.Replace("°", "");
+                int highTemp = int.Parse(HightemperatureText);
+                int lowTemp = int.Parse(LowtemperatureText);
+
+
+                Assert.Greater(highTemp, lowTemp, "Tomorrow's high temperature is greater than tomorrow's low temperature");
+
+
+            }
+            catch (Exception ex)
+            {
+
+                Assert.Fail(ex.Message);
+            }
         }
         
 
