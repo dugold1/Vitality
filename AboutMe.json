@@ -1,0 +1,17 @@
+{
+  "name": "John Omashonu",
+  "age": 30,
+  "location": "machester",
+  "occupation": "Software Engineer",
+  "interests": [ "reading", "hiking", "playing guitar" ],
+  "education": {
+    "degree": "Bachelor of Science in Computer Science",
+    "university": "University of manchester"
+  },
+  "skills": [ "JavaScript", "Python", "Java", "HTML/CSS" ],
+  "languages": [ "English", "Spanish" ],
+  "socialMedia": {
+    "linkedin": "https://www.linkedin.com/in/johndoe",
+    "twitter": "@johndoe"
+  }
+}
