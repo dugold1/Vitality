@@ -8,7 +8,7 @@ using TechTalk.SpecFlow;
 namespace WarcTechnicalTest.StepDefs
 {
     [Binding]
-    public sealed class WeatherPageSteps
+    internal sealed class WeatherPageSteps
     {
         private readonly WeatherPage _homePage;
         private readonly IWebDriver _driver;

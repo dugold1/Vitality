@@ -2,7 +2,7 @@
 
 namespace WarcTechnicalTest.Pages
 {
-    public class BasePage
+    internal class BasePage
     {
 
         private readonly IWebDriver _driver;

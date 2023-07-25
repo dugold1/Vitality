@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace WarcTechnicalTest.Pages
 {
-    public class WeatherPage : BasePage
+    internal class WeatherPage : BasePage
     {
         private readonly IWebDriver _driver;
         private readonly By _lowTemperature = By.XPath("(//div[@class='wr-day-temperature__low'])[2]//span//span/span[1]");

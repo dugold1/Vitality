@@ -4,7 +4,7 @@ using System;
 
 namespace WarcTechnicalTest.Utilities
 {
-    public class DriverWait
+    internal class DriverWait
     {
         private readonly WebDriverWait wait;
 

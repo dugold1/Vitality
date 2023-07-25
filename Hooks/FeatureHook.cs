@@ -7,7 +7,7 @@ using WarcTechnicalTest.Utilities;
 namespace WarcTechnicalTest.Hooks
 {
     [Binding]
-    public class FeatureHook
+    internal class FeatureHook
     {
         public static TestConfig Config;
         private Webdriver _webdriver;
